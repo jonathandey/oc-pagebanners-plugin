@@ -1,0 +1,19 @@
+# ===================================
+#  Form Field Definitions
+# ===================================
+
+fields:
+    name:
+        label: Name
+        span: left
+        placeholder: Homepage banner
+    page_id:
+        label: For page
+        span: right
+        type: dropdown
+        placeholder: Select a page
+    images:
+        label: Images
+        span: full
+        type: fileupload
+        mode: image

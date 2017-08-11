@@ -1,0 +1,31 @@
+# ===================================
+#  Form Behavior Config
+# ===================================
+
+# Record name
+name: Banner
+
+# Model Form Field configuration
+form: $/jd/pagebanners/models/banner/fields.yaml
+
+# Model Class name
+modelClass: JD\PageBanners\Models\Banner
+
+# Default redirect location
+defaultRedirect: jd/pagebanners/banners
+
+# Create page
+create:
+    title: Create Banner
+    redirect: jd/pagebanners/banners/update/:id
+    redirectClose: jd/pagebanners/banners
+
+# Update page
+update:
+    title: Edit Banner
+    redirect: jd/pagebanners/banners
+    redirectClose: jd/pagebanners/banners
+
+# Preview page
+preview:
+    title: Preview Banner
